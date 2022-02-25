@@ -1,0 +1,15 @@
+:root {
+  --dark-color: #202023;
+  --blue: #7fe3d7;
+  --pink: #e359ae;
+}
+
+.darkMode {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+.lightMode {
+  background-color: white;
+  color: var(--dark-color);
+}

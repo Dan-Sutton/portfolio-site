@@ -1,0 +1,18 @@
+:root {
+  --dark-color: #202023;
+  --blue: #7fe3d7;
+  --pink: #e359ae;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navDarkMode {
+  color: white;
+}
+
+.navLightMode {
+  color: var(--dark-color);
+}
