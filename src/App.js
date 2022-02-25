@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState("darkMode");
@@ -21,10 +23,20 @@ function App() {
   }, [mode]);
 
   return (
-    <div className="app" className={mode}>
-      <Navbar mode={mode} handleMode={handleMode} />
-      <Home />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div className="app" className={mode}>
+              <Navbar mode={mode} handleMode={handleMode} />
+              <Home />
+            </div>
+          }
+        ></Route>
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
