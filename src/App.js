@@ -34,7 +34,15 @@ function App() {
             </div>
           }
         ></Route>
-        <Route path="/projects" element={<Projects />} />
+        <Route
+          path="/projects"
+          element={
+            <div className="projectspage" className={mode}>
+              <Navbar mode={mode} handleMode={handleMode} />
+              <Projects />
+            </div>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );

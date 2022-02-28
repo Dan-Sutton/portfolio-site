@@ -1,10 +1,13 @@
 import React from "react";
+import Icons from "../Icons";
+
 
 function Home() {
   return (
     <div>
       <h1>Dewa Sutton</h1>
       <p>Software Engineer</p>
+      <Icons/>
       <button>Projects</button>
 
       <section>
