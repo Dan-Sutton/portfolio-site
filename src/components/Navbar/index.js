@@ -6,7 +6,9 @@ function Navbar({ handleMode, mode }) {
   return (
     <ul className="navbar">
       <li>//DEWA SUTTON</li>
-      <li>Projects</li>
+      <li>
+        <a href="http://localhost:3000/projects">Projects</a>
+      </li>
       <li>Contact</li>
       <Toggle handleMode={handleMode} />
     </ul>

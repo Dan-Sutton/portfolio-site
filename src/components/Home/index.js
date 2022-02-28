@@ -1,13 +1,18 @@
 import React from "react";
 import Icons from "../Icons";
-
+import profile from "../../images/profile.png";
 
 function Home() {
   return (
     <div>
       <h1>Dewa Sutton</h1>
       <p>Software Engineer</p>
-      <Icons/>
+      <Icons />
+      <img
+        src={profile}
+        alt="profile picture"
+        style={{ height: "30vh", width: "auto" }}
+      ></img>
       <button>Projects</button>
 
       <section>
