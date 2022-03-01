@@ -27,7 +27,6 @@ function App() {
           path="/"
           element={
             <div className="app" className={mode}>
-              <Navbar mode={mode} handleMode={handleMode} />
               <Home />
             </div>
           }
@@ -36,7 +35,6 @@ function App() {
           path="/projects"
           element={
             <div className="projectspage" className={mode}>
-              <Navbar mode={mode} handleMode={handleMode} />
               <Projects />
             </div>
           }

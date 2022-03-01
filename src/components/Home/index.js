@@ -17,11 +17,7 @@ function Home() {
           <h2>Software Engineer</h2>
           <Icons />
         </div>
-        <img
-          src={profile}
-          alt="profile picture"
-          className={homestyle.profileimage}
-        ></img>
+        <img src={profile} className={homestyle.profileimage}></img>
       </div>
 
       <button
@@ -41,9 +37,9 @@ function Home() {
           previously as a Sound Engineer in the TV industry, and have always
           been fascinated and passionate about tech. I took a journey into the
           tech world after discovering the wonderful world of code. I tought
-          myself the fundamentals of{" "}
+          myself the fundamentals of
           <b className={homestyle.pinkText}>Full Stack Web Development</b>, and
-          then decided to apply for the{" "}
+          then decided to apply for the
           <b className={homestyle.blueText}>School of Code Bootcamp</b>.
         </p>
       </section>
