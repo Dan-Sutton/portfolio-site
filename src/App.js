@@ -8,7 +8,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   const [mode, setMode] = useState("darkMode");
 
-  //changes mode
   function handleMode() {
     if (mode === "darkMode") {
       setMode("lightMode");
@@ -17,7 +16,6 @@ function App() {
     }
   }
 
-  //logs current mode
   useEffect(() => {
     console.log(mode);
   }, [mode]);

@@ -1,0 +1,59 @@
+:root {
+  --dark-color: #202023;
+  --blue: #7fe3d7;
+  --pink: #e359ae;
+  --gray: #3b3b40;
+}
+
+.home {
+  margin-left: 34vw;
+  margin-right: 34vw;
+  display: grid;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5vh;
+  margin-bottom: -8%;
+}
+
+h2 {
+  font-size: 2vh;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+.profileText {
+  text-align: left;
+}
+
+.profileimage {
+  height: 30vh;
+  width: auto;
+}
+
+.projectbtn {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue);
+  height: 5vh;
+  width: 8vw;
+  border-radius: 9px;
+  margin-top: 5vh;
+}
+
+.pinkText {
+  color: var(--pink);
+}
+
+.blueText {
+  color: var(--blue);
+}
+
+.textBackground {
+  background-color: var(--gray);
+  padding: 1.5%;
+}
