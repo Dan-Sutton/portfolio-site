@@ -6,7 +6,9 @@
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  text-align: left;
+  list-style-type: none;
 }
 
 .navDarkMode {
