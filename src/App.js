@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import Home from "./components/Home";
-import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -26,7 +25,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="app" className={mode}>
+            <div className="app">
               <Home />
             </div>
           }
@@ -34,7 +33,7 @@ function App() {
         <Route
           path="/projects"
           element={
-            <div className="projectspage" className={mode}>
+            <div className="projectspage">
               <Projects />
             </div>
           }

@@ -2,12 +2,12 @@ import React from "react";
 import Icons from "../Icons";
 import profile from "../../images/profile.png";
 import homestyle from "./home.module.css";
-import Navbar from "../Navbar";
+import NavbarNew from "../NavBarNew";
 
 function Home() {
   return (
     <div className={homestyle.home}>
-      <Navbar />
+      <NavbarNew id={homestyle.navbar} />
       <div className={homestyle.profile}>
         {" "}
         <div className={homestyle.profileText}>

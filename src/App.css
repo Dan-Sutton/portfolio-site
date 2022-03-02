@@ -4,19 +4,10 @@
   --pink: #e359ae;
 }
 
-
-.darkMode {
+.app {
   margin-top: -2vh;
   height: 100vh;
   width: 100vw;
   background-color: var(--dark-color);
   color: white;
-}
-
-.lightMode {
-  margin-top: -2vh;
-  height: 100vh;
-  width: 100vw;
-  background-color: white;
-  color: var(--dark-color);
 }
