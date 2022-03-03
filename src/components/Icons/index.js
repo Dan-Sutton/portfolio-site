@@ -10,15 +10,13 @@ export default function Icons() {
       <a
         href="../../Dewa Sutton CV.pdf"
         download
-        className={icons.cv}
-        className={icons.hvrgrow}
+        className={(icons.cv, icons.hvrgrow)}
       >
         <img src={CVicon} style={{ height: "7vh", width: "auto" }} alt={"CV"} />
       </a>
 
       <img
-        className={icons.email}
-        className={icons.hvrgrow}
+        className={(icons.email, icons.hvrgrow)}
         onClick={() => {
           window.open("http://localhost:3000/contact");
         }}
@@ -27,8 +25,7 @@ export default function Icons() {
         style={{ height: "7vh", width: "auto" }}
       ></img>
       <img
-        className={icons.git}
-        className={icons.hvrgrow}
+        className={(icons.git, icons.hvrgrow)}
         onClick={() => {
           window.open("https://github.com/Dan-Sutton");
         }}
@@ -37,8 +34,7 @@ export default function Icons() {
         style={{ height: "7vh", width: "auto" }}
       ></img>
       <img
-        className={icons.linkedin}
-        className={icons.hvrgrow}
+        className={(icons.linkedin, icons.hvrgrow)}
         onClick={() => {
           window.open("https://www.linkedin.com/in/dewa-sutton/");
         }}
