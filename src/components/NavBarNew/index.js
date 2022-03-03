@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
-export default function NavbarNew({ setShowHome }) {
+export default function NavbarNew({ setShowHome, setShowProjects }) {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -9,9 +9,10 @@ export default function NavbarNew({ setShowHome }) {
           style={{ cursor: "pointer" }}
           onClick={() => {
             setShowHome(true);
+            setShowProjects(false);
           }}
         >
-          <b>//DEWA SUTTON</b>
+          <b>{"//DEWA SUTTON"}</b>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -19,6 +20,7 @@ export default function NavbarNew({ setShowHome }) {
             <Nav.Link
               onClick={() => {
                 setShowHome(false);
+                setShowProjects(true);
               }}
             >
               Projects

@@ -5,10 +5,10 @@
 }
 
 .title {
-  font-size: 7vh;
+  font-size: var(--h1);
   margin-bottom: 2%;
   font-family: var(--font);
-  font-weight: 700;
+  font-weight: var(--h1-weight);
   line-height: 3rem;
 }
 

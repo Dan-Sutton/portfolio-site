@@ -3,6 +3,10 @@
   --blue: #7fe3d7;
   --pink: #e359ae;
   --font: "Source Code Pro", monospace;
+  --h1: 7vh;
+  --h1-weight: 700;
+  --h2: 3vh;
+  --h2-weight: 400;
 }
 
 .app {
