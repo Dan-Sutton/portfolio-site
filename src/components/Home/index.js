@@ -11,12 +11,8 @@ function Home() {
       <div className={homestyle.profile}>
         {" "}
         <div className={homestyle.profileText}>
-          <h1>
-            Dewa
-            <br />
-            Sutton
-          </h1>
-          <h2>Software Engineer</h2>
+          <h1 className={homestyle.title}>Dewa Sutton</h1>
+          <h2 className={homestyle.subtitle}>Software Engineer</h2>
           <Icons />
         </div>
         <img src={profile} className={homestyle.profileimage}></img>
