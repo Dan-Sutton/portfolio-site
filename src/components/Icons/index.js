@@ -7,7 +7,7 @@ export default function Icons() {
   return (
     <div className="icons">
       <a href="../../Dewa Sutton CV.pdf" download>
-        <img src={CVicon} style={{ height: "6vh", width: "auto" }} />
+        <img src={CVicon} style={{ height: "6vh", width: "auto" }} alt={"CV"} />
       </a>
 
       <img
@@ -15,6 +15,7 @@ export default function Icons() {
           window.open("http://localhost:3000/contact");
         }}
         src={Emailicon}
+        alt={"Email"}
         style={{ height: "6vh", width: "auto" }}
       ></img>
       <img
@@ -22,6 +23,7 @@ export default function Icons() {
           window.open("https://github.com/Dan-Sutton");
         }}
         src={GithubIcon}
+        alt={"GitHub"}
         style={{ height: "6vh", width: "auto" }}
       ></img>
       <img
@@ -29,6 +31,7 @@ export default function Icons() {
           window.open("https://www.linkedin.com/in/dewa-sutton/");
         }}
         src={LinkedInIcon}
+        alt={"LinkedIn"}
         style={{ height: "6vh", width: "auto" }}
       ></img>
     </div>
