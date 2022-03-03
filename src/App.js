@@ -2,44 +2,19 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NavbarNew from "./components/NavBarNew";
 
 function App() {
-  const [mode, setMode] = useState("darkMode");
-
-  function handleMode() {
-    if (mode === "darkMode") {
-      setMode("lightMode");
-    } else {
-      setMode("darkMode");
-    }
-  }
-
-  useEffect(() => {
-    console.log(mode);
-  }, [mode]);
+  const [showHome, setShowHome] = useState(true);
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <div className="app">
-              <Home />
-            </div>
-          }
-        ></Route>
-        <Route
-          path="/projects"
-          element={
-            <div className="projectspage">
-              <Projects />
-            </div>
-          }
-        />
-      </Routes>
-    </BrowserRouter>
+    <div className="app">
+      <div className="app-body">
+        <NavbarNew setShowHome={setShowHome} className="navbar" />
+        {showHome ? <Home setShowHome={setShowHome} /> : null}
+        <Projects />
+      </div>
+    </div>
   );
 }
 

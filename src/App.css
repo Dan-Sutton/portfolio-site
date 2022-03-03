@@ -12,3 +12,14 @@
   background-color: var(--dark-color);
   color: white;
 }
+
+.app-body {
+  margin-left: 30vw;
+  margin-right: 30vw;
+  margin-top: 4vh;
+}
+
+.navbar {
+  margin-top: -4vh;
+  margin-bottom: 2vh;
+}

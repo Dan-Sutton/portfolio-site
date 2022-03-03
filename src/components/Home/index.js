@@ -2,12 +2,10 @@ import React from "react";
 import Icons from "../Icons";
 import profile from "../../images/profile.png";
 import homestyle from "./home.module.css";
-import NavbarNew from "../NavBarNew";
 
-function Home() {
+function Home({ setShowHome }) {
   return (
     <div className={homestyle.home}>
-      <NavbarNew id={homestyle.navbar} />
       <div className={homestyle.profile}>
         {" "}
         <div className={homestyle.profileText}>
@@ -21,7 +19,7 @@ function Home() {
       <button
         className={homestyle.projectbtn}
         onClick={() => {
-          window.location = "http://localhost:3000/projects";
+          setShowHome(false);
         }}
       >
         Projects
