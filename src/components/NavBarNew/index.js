@@ -17,10 +17,7 @@ export default function NavbarNew({ setShowHome, setShowProjects }) {
         <Navbar.Brand
           className={navbar.hvrgrow}
           style={{ cursor: "pointer" }}
-          onClick={() => {
-            setShowHome(true);
-            setShowProjects(false);
-          }}
+          href="/"
         >
           <b>{"//DEWA SUTTON"}</b>
         </Navbar.Brand>

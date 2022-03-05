@@ -2,12 +2,16 @@ import React from "react";
 import Icons from "../Icons";
 import profile from "../../images/profile.png";
 import homestyle from "./home.module.css";
-import NavBarNew from "../NavBarNew";
+import { motion } from "framer-motion";
 
 function Home({ setShowHome, setShowProjects }) {
   return (
-    <div className={homestyle.home}>
-      {/* <NavBarNew className={homestyle.navbarstyle} /> */}
+    <motion.div
+      className={homestyle.home}
+      initial={{ opacity: 0, x: 100 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: -100 }}
+    >
       <div className={homestyle.profile}>
         {" "}
         <div className={homestyle.profileText}>
@@ -36,7 +40,7 @@ function Home({ setShowHome, setShowProjects }) {
           <b className={homestyle.blueText}> School of Code Bootcamp</b>.
         </p>
       </section>
-    </div>
+    </motion.div>
   );
 }
 
