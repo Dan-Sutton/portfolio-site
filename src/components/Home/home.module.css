@@ -2,9 +2,7 @@
   height: 150vh;
   background-color: var(--dark-color);
   color: white;
-  /* margin-left: 23vw;
-  margin-right: 23vw; */
-  width: 50vw;
+  width: 47vw;
 }
 
 .title {
@@ -47,4 +45,10 @@
 .textBackground {
   background-color: var(--gray);
   padding: 1.5%;
+}
+
+.aboutsection {
+  margin-top: 4vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }

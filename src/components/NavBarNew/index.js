@@ -4,7 +4,15 @@ import navbar from "./navbar.module.css";
 
 export default function NavbarNew({ setShowHome, setShowProjects }) {
   return (
-    <Navbar className={"navbar"} bg="light" expand="lg">
+    <Navbar
+      className="navbar"
+      bg="light"
+      expand="lg"
+      style={{
+        position: "fixed",
+        width: "47vw",
+      }}
+    >
       <Container>
         <Navbar.Brand
           className={navbar.hvrgrow}

@@ -4,17 +4,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import NavbarNew from "./components/NavBarNew";
 
 function App() {
   return (
     <div className="app">
+      <NavbarNew />
       <BrowserRouter>
         <Routes>
-          <Route>
-            <Route index element={<Home className="home" />} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="contact" element={<Contact />} />
-          </Route>
+          <Route index element={<Home />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>

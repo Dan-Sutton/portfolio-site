@@ -7,7 +7,7 @@ import NavBarNew from "../NavBarNew";
 function Home({ setShowHome, setShowProjects }) {
   return (
     <div className={homestyle.home}>
-      <NavBarNew className={homestyle.navbarstyle} />
+      {/* <NavBarNew className={homestyle.navbarstyle} /> */}
       <div className={homestyle.profile}>
         {" "}
         <div className={homestyle.profileText}>
@@ -22,7 +22,7 @@ function Home({ setShowHome, setShowProjects }) {
         ></img>
       </div>
 
-      <section>
+      <section className={homestyle.aboutsection}>
         <h2 className={homestyle.pinkText}>{"//About"}</h2>
         <p className={homestyle.textBackground}>
           Hi! My name is <b className={homestyle.blueText}> Dewa</b>, and I'm a
