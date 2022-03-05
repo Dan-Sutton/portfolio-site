@@ -4,7 +4,7 @@ import navbar from "./navbar.module.css";
 
 export default function NavbarNew({ setShowHome, setShowProjects }) {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className={"navbar"} bg="light" expand="lg">
       <Container>
         <Navbar.Brand
           className={navbar.hvrgrow}
@@ -19,13 +19,7 @@ export default function NavbarNew({ setShowHome, setShowProjects }) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link
-              className={navbar.hvrgrow}
-              onClick={() => {
-                setShowHome(false);
-                setShowProjects(true);
-              }}
-            >
+            <Nav.Link className={navbar.hvrgrow} href="projects">
               Projects
             </Nav.Link>
             <Nav.Link className={navbar.hvrgrow} href="contact">

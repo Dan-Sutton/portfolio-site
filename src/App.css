@@ -10,20 +10,12 @@
 }
 
 .app {
-  margin-top: -2vh;
-  height: 100vh;
-  width: 100vw;
   background-color: var(--dark-color);
-  color: white;
+  display: flex;
+  justify-content: center~~~;
 }
 
 .app-body {
   margin-left: 30vw;
   margin-right: 30vw;
-  margin-top: 4vh;
-}
-
-.navbar {
-  margin-top: -4vh;
-  margin-bottom: 2vh;
 }

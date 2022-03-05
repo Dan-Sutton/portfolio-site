@@ -1,7 +1,10 @@
 .home {
-  display: grid;
-  align-items: center;
-  padding-top: 7vh;
+  height: 150vh;
+  background-color: var(--dark-color);
+  color: white;
+  /* margin-left: 23vw;
+  margin-right: 23vw; */
+  width: 50vw;
 }
 
 .title {
@@ -18,8 +21,10 @@
   font-weight: 400;
 }
 .profile {
+  margin-top: 4vh;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .profileText {
   text-align: left;
@@ -28,18 +33,7 @@
 .profileimage {
   height: 30vh;
   width: auto;
-}
-
-.projectbtn {
-  display: flex;
-  justify-self: center;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--blue);
-  height: 5vh;
-  width: 8vw;
-  border-radius: 9px;
-  margin-top: 5vh;
+  margin-top: 3vh;
 }
 
 .pinkText {
