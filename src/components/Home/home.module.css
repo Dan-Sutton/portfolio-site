@@ -1,4 +1,5 @@
 .home {
+  margin-top: 3vh;
   height: 150vh;
   background-color: var(--dark-color);
   color: white;

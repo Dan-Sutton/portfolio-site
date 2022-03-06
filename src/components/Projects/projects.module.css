@@ -8,13 +8,14 @@
 }
 
 .project {
-  margin-top: 11vh;
+  margin-top: 14vh;
   width: 47vw;
-  height: 100vh;
+  height: 150vh;
 }
 
 .projecthead {
   display: grid;
   align-items: center;
   width: 55%;
+  margin-bottom: 5vh;
 }

@@ -1,0 +1,53 @@
+/* .image {
+  height: 30vh;
+  width: auto;
+  object-fit: cover;
+} */
+
+.article {
+  text-align: left;
+  margin-left: 8%;
+  margin-top: -1vh;
+}
+
+.info {
+  color: white;
+}
+.title {
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 4vh;
+}
+
+.showMore {
+  margin-top: 18.5%;
+  margin-left: -0.5%;
+  position: absolute;
+  z-index: 1;
+  color: white;
+}
+
+.hvrgrow {
+  height: auto;
+  width: 20vw;
+  object-fit: cover;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvrgrow:hover,
+.hvrgrow:focus,
+.hvrgrow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.07);
+}
