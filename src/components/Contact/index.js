@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import contact from "./contact.module.css";
 import { motion } from "framer-motion";
+import Icons from "../Icons";
 
 export const Contact = () => {
   const form = useRef();
@@ -34,6 +35,11 @@ export const Contact = () => {
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -100, duration: 5 }}
     >
+      <div className={contact.contacthead}>
+        <h1 className={contact.title}>Contact</h1>
+        <Icons className={contact.icons} />
+      </div>
+
       <form ref={form} onSubmit={sendEmail} className={contact.form}>
         <label>Name</label>
         <input type="text" name="user_name" placeholder="Your name" />

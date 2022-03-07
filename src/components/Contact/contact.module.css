@@ -1,14 +1,31 @@
 .body {
   height: 150vh;
   background-color: var(--dark-color);
+  width: 47vw;
 }
 
 .form {
   margin-top: 10vh;
   display: grid;
   align-items: center;
+  width: 40vw;
+  margin-left: 3.5vw;
 }
 
 .submit {
   margin-top: 2vh;
+}
+
+.contacthead {
+  margin-top: 11vh;
+  color: white;
+  display: grid;
+  justify-items: flex-start;
+}
+
+.title {
+  font-size: var(--h1);
+  font-family: var(--font);
+  font-weight: var(--h1-weight);
+  line-height: 3rem;
 }
