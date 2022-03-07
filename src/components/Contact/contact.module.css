@@ -1,0 +1,14 @@
+.body {
+  height: 150vh;
+  background-color: var(--dark-color);
+}
+
+.form {
+  margin-top: 10vh;
+  display: grid;
+  align-items: center;
+}
+
+.submit {
+  margin-top: 2vh;
+}
