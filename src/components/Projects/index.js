@@ -20,6 +20,7 @@ function Projects() {
       {projectsData.map((item) => {
         return (
           <ProjectImages
+          className={project.images}
             imgSrc={item.image}
             title={item.title}
             info={item.info}

@@ -32,6 +32,7 @@
 }
 
 .hvrgrow {
+  border: 1vh solid white;
   height: auto;
   width: 20vw;
   object-fit: cover;
