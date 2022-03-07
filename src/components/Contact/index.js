@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import contact from "./contact.module.css";
+import { motion } from "framer-motion";
 
 export const Contact = () => {
   const form = useRef();
@@ -27,7 +28,12 @@ export const Contact = () => {
   };
 
   return (
-    <div className={contact.body}>
+    <motion.div
+      className={contact.body}
+      initial={{ opacity: 0, x: 100 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: -100, duration: 5 }}
+    >
       <form ref={form} onSubmit={sendEmail} className={contact.form}>
         <label>Name</label>
         <input type="text" name="user_name" placeholder="Your name" />
@@ -41,7 +47,7 @@ export const Contact = () => {
         <textarea name="message" placeholder="Message" />
         <input type="submit" value="Send" className={contact.submit} />
       </form>
-    </div>
+    </motion.div>
   );
 };
 
