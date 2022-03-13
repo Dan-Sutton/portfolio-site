@@ -17,16 +17,19 @@ function Projects() {
         <Icons className={project.icons} />
       </div>
 
-      {projectsData.map((item) => {
-        return (
-          <ProjectImages
-          className={project.images}
-            imgSrc={item.image}
-            title={item.title}
-            info={item.info}
-          />
-        );
-      })}
+      <div className={project.images}>
+        {projectsData.map((item) => {
+          return (
+            <ProjectImages
+              imgSrc={item.image}
+              title={item.title}
+              info={item.info}
+              link1={item.link1}
+              link2={item.link2}
+            />
+          );
+        })}
+      </div>
     </motion.div>
   );
 }
