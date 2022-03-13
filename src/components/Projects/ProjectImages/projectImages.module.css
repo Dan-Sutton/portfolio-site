@@ -15,12 +15,17 @@
 }
 .title {
   color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 4vh;
+  margin-top: 2vh;
 }
 
 .container {
   display: flex;
   align-items: flex-start;
   margin-bottom: 4vh;
+  width: auto;
 }
 
 .showMore {
@@ -51,4 +56,5 @@
 .hvrgrow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.07);
+  border-color: var(--blue);
 }
