@@ -23,7 +23,6 @@ export default function BasicModal({
   link1,
   link2,
 }) {
-  const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
   return (
@@ -41,11 +40,11 @@ export default function BasicModal({
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             {info}
           </Typography>
-          <a href={link1.link} target="_blank">
+          <a href={link1.link} target="_blank" rel="noreferrer">
             {link1.title}
           </a>{" "}
           <br />
-          <a href={link2.link} target="_blank">
+          <a href={link2.link} target="_blank" rel="noreferrer">
             {link2.title}
           </a>
         </Box>
