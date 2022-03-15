@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import projectImages from "./projectImages.module.css";
 import BasicModal from "./ImageModal";
 
-export default function ProjectImages({ imgSrc, info, title, link1, link2, img2Src, 
-  img3Src }) {
+export default function ProjectImages({ imgSrc, info, title, link1, link2,  }) {
   const [open, setOpen] = useState(false);
   const [more, setMore] = useState(false);
 
@@ -38,8 +37,6 @@ export default function ProjectImages({ imgSrc, info, title, link1, link2, img2S
         info={info}
         link1={link1}
         link2={link2}
-        img2Src={img2Src}
-        img3Src={img3Src}
       />
     </div>
   );

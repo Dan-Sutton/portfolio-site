@@ -22,13 +22,10 @@ function Projects() {
           return (
             <ProjectImages
               imgSrc={item.image}
-              img2Src={item.image2}
-              img3Src={item.image3}
               title={item.title}
               info={item.info}
               link1={item.link1}
               link2={item.link2}
-
             />
           );
         })}
