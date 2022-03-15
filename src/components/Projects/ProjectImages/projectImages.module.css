@@ -37,11 +37,15 @@
 }
 
 .hvrgrow {
+  margin-left: 1vw;
+  margin-right: 1vw;
   border: 1vh solid white;
   height: auto;
   width: 20vw;
   object-fit: cover;
-  display: inline-block;
+  display: flex;
+  justify-self: center;
+  flex-wrap: wrap;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
