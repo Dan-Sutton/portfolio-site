@@ -22,6 +22,7 @@ export default function BasicModal({
   info,
   link1,
   link2,
+
 }) {
   const handleClose = () => setOpen(false);
 
