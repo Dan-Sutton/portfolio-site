@@ -18,7 +18,7 @@ export default function Icons() {
       <img
         className={(icons.email, icons.hvrgrow)}
         onClick={() => {
-          window.open("http://localhost:3000/contact");
+          window.open("https://dewasutton.netlify.app/contact");
         }}
         src={Emailicon}
         alt={"Email"}

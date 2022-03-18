@@ -1,4 +1,6 @@
 .title {
+  margin-top: 2%;
+  margin-left: 4%;
   margin-bottom: 2vh;
   font-size: var(--h1);
   font-family: var(--font);
@@ -8,7 +10,7 @@
 }
 
 .project {
-  margin-top: 14vh;
+  margin-top: 10vh;
   width: 47vw;
   height: 150vh;
 }
@@ -18,10 +20,20 @@
   align-items: center;
   width: 55%;
   margin-bottom: 5vh;
+  background-color: #3b3b40;
+  border-radius: 20px;
+  width: 47vw;
+  height: 18vh;
 }
 
 .images {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.icons {
+  margin-left: 4%;
+  margin-bottom: 2%;
+  margin-right: 20vw;
 }

@@ -20,19 +20,23 @@
   font-weight: 400;
 }
 .profile {
-  margin-top: 4vh;
+  margin-top: 7vh;
+  height: 28vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #3b3b40;
+  border-radius: 20px;
 }
 .profileText {
+  margin-left: 4%;
   text-align: left;
 }
 
 .profileimage {
-  height: 30vh;
+  height: 26vh;
   width: auto;
-  margin-top: 3vh;
+  margin-right: 4%;
 }
 
 .pinkText {
@@ -46,6 +50,8 @@
 .textBackground {
   background-color: var(--gray);
   padding: 1.5%;
+  background-color: #3b3b40;
+  border-radius: 20px;
 }
 
 .aboutsection {

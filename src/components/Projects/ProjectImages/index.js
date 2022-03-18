@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import projectImages from "./projectImages.module.css";
 import BasicModal from "./ImageModal";
 
-export default function ProjectImages({ imgSrc, info, title, link1, link2,  }) {
+export default function ProjectImages({ imgSrc, info, title, link1, link2 }) {
   const [open, setOpen] = useState(false);
   const [more, setMore] = useState(false);
 
@@ -25,7 +25,9 @@ export default function ProjectImages({ imgSrc, info, title, link1, link2,  }) {
         ></img>
 
         {more ? (
-          <h1 className={projectImages.title}>Click for more info</h1>
+          <h1 className={projectImages.title} style={{ fontSize: "2vw" }}>
+            Click for more info
+          </h1>
         ) : (
           <h1 className={projectImages.title}>{title}</h1>
         )}

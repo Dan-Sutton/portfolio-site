@@ -14,7 +14,9 @@ function Projects() {
     >
       <div className={project.projecthead}>
         <h1 className={project.title}>Projects</h1>
-        <Icons className={project.icons} />
+        <div className={project.icons}>
+          <Icons />
+        </div>
       </div>
 
       <div className={project.images}>
