@@ -59,3 +59,23 @@
   margin-left: 2vw;
   margin-right: 2vw;
 }
+
+.buttoncontain {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  height: 3%;
+}
+
+.cvbutton {
+  color: var(--dark-color);
+  text-decoration: none;
+  display: grid;
+  align-items: center;
+  border-radius: 7px;
+  background-color: var(--blue);
+  border-style: none;
+  text-align: center;
+  width: 15%;
+  font-family: var(--font);
+}

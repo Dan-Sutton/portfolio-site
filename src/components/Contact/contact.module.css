@@ -17,10 +17,12 @@
 }
 
 .contacthead {
-  margin-top: 11vh;
+  margin-top: 10vh;
   color: white;
   display: grid;
   justify-items: flex-start;
+  background-color: var(--light-grey);
+  border-radius: 20px;
 }
 
 .title {
@@ -28,4 +30,14 @@
   font-family: var(--font);
   font-weight: var(--h1-weight);
   line-height: 3rem;
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 2vh;
+}
+
+.icons {
+  width: 55%;
+  margin-left: 4%;
+  margin-bottom: 2%;
+  margin-right: 20vw;
 }

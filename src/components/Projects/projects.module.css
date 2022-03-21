@@ -20,7 +20,7 @@
   align-items: center;
   width: 55%;
   margin-bottom: 5vh;
-  background-color: #3b3b40;
+  background-color: var(--light-grey);
   border-radius: 20px;
   width: 47vw;
   height: 18vh;

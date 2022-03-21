@@ -27,19 +27,31 @@ function Home({ setShowHome, setShowProjects }) {
       </div>
 
       <section className={homestyle.aboutsection}>
-        <h2 className={homestyle.pinkText}>{"//About"}</h2>
+        <h2 className={homestyle.pinkText}>{"//Bio"}</h2>
         <p className={homestyle.textBackground}>
           Hi! My name is <b className={homestyle.blueText}> Dewa</b>, and I'm a
-          <b className={homestyle.pinkText}> Software developer</b>. I worked
-          previously as a Sound Engineer in the TV industry, and have always
-          been fascinated and passionate about tech. I took a journey into the
-          tech world after discovering the wonderful world of code. I tought
-          myself the fundamentals of
+          <b className={homestyle.pinkText}> Software developer</b> from
+          Shropshire. I worked previously as a Sound Engineer in the TV
+          industry, and have always been fascinated and passionate about tech. I
+          took a journey into the tech world after discovering the wonderful
+          world of code. I tought myself the fundamentals of
           <b className={homestyle.pinkText}> Full Stack Web Development</b>, and
           then decided to apply for the
-          <b className={homestyle.blueText}> School of Code Bootcamp</b>.
+          <b className={homestyle.blueText}> School of Code Bootcamp</b>. This
+          Bootcamp drastically changed my life for the better, and equipped me
+          with the essential mindset and tools to exist as a successful{" "}
+          <b className={homestyle.pinkText}> Software developer</b>.
         </p>
       </section>
+      <div className={homestyle.buttoncontain}>
+        <a
+          href="../../Dewa Sutton CV.pdf"
+          download
+          className={homestyle.cvbutton}
+        >
+          View CV
+        </a>
+      </div>
     </motion.div>
   );
 }

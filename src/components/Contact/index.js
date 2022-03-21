@@ -37,7 +37,9 @@ export const Contact = () => {
     >
       <div className={contact.contacthead}>
         <h1 className={contact.title}>Contact</h1>
-        <Icons className={contact.icons} />
+        <div className={contact.icons}>
+          <Icons />
+        </div>
       </div>
 
       <form ref={form} onSubmit={sendEmail} className={contact.form}>
