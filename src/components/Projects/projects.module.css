@@ -16,13 +16,14 @@
 }
 
 .projecthead {
+  margin-top: -9%;
   display: grid;
   align-items: center;
   width: 55%;
   margin-bottom: 5vh;
   background-color: var(--light-grey);
   border-radius: 20px;
-  width: 47vw;
+  width: 100%;
   height: 18vh;
 }
 
@@ -36,4 +37,10 @@
   margin-left: 4%;
   margin-bottom: 2%;
   margin-right: 20vw;
+}
+
+@media only screen and (max-width: 1026px) {
+  .project {
+    width: 80vw;
+  }
 }

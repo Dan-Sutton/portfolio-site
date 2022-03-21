@@ -8,10 +8,6 @@ export default function NavbarNew({ setShowHome, setShowProjects }) {
       className="navbar"
       bg="light"
       expand="lg"
-      style={{
-        position: "fixed",
-        width: "47vw",
-      }}
     >
       <Container>
         <Navbar.Brand

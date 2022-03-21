@@ -8,8 +8,9 @@
   margin-top: 10vh;
   display: grid;
   align-items: center;
-  width: 40vw;
-  margin-left: 3.5vw;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .submit {
@@ -17,7 +18,7 @@
 }
 
 .contacthead {
-  margin-top: 10vh;
+  margin-top: 3%;
   color: white;
   display: grid;
   justify-items: flex-start;
@@ -40,4 +41,10 @@
   margin-left: 4%;
   margin-bottom: 2%;
   margin-right: 20vw;
+}
+
+@media only screen and (max-width: 1026px) {
+  .body {
+    width: 80vw;
+  }
 }
