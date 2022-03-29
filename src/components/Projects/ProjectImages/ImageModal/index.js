@@ -9,7 +9,8 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: "70vw",
+  width: "90vw",
+  height: "90vh",
   bgcolor: "rgba(255, 255, 255, .2)",
   backdropFilter: " blur(10px)",
   p: 4,
@@ -54,8 +55,22 @@ export default function BasicModal({
           </div>
 
           <div className={modal.imgcontainer}>
-            <img src={img2} style={{ height: "100%", width: "auto" }}></img>
-            <img src={img3} style={{ height: "100%", width: "auto" }}></img>
+            <img
+              className={modal.img}
+              src={img2}
+              alt="project thumbnail"
+              onClick={() => {
+                window.open(img2);
+              }}
+            ></img>
+            <img
+              className={modal.img}
+              src={img3}
+              alt="project thumbnail"
+              onClick={() => {
+                window.open(img3);
+              }}
+            ></img>
           </div>
         </Box>
       </Modal>

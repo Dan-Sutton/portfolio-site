@@ -1,9 +1,31 @@
 .imgcontainer {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 3%;
-  height: 30vh;
+  height: 40vh;
   width: 100%;
-  background-color: var(--light-grey);
+}
+
+.img {
+  max-height: 100%;
+  width: 50%;
+  object-fit: scale-down;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+@media only screen and (max-width: 781px) {
+  .img {
+    width: 60%;
+    height: 50%;
+    margin-bottom: 3%;
+  }
+}
+
+.img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.07);
+  filter: blur(50px);
+  filter: brightness(150%);
 }
