@@ -40,7 +40,7 @@ export const projectsData = [
     image:
       "https://res.cloudinary.com/dansutton/image/upload/v1647304010/portfolio%20site/pinit_pt15ta.png",
     image2:
-      "https://res.cloudinary.com/dansutton/image/upload/v1647301777/portfolio%20site/Dashboard_zlexn9.gif",
+      "https://res.cloudinary.com/dansutton/image/upload/v1648558400/portfolio%20site/pinit_mobile_lpw9sn.png",
     image3:
       "https://res.cloudinary.com/dansutton/image/upload/v1647302095/portfolio%20site/form_wzxdyn.gif",
     info: `During the last 4 weeks of the Bootcamp I worked within a team of six to plan, develop and deploy a full stack app. Using an agile approach and applications such as Miro and Figma to brainstorm and plan ideas, we decided to create a location-based visual scrapbook. This would utilise a React frontend, with a backend using AWS for image storage and a PostgeSQL database for tables. We held daily standups, meetings and retrospectives, utilising Jira to monitor our progress as well as assign new tasks.`,
