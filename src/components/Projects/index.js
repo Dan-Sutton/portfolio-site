@@ -28,6 +28,9 @@ function Projects() {
               info={item.info}
               link1={item.link1}
               link2={item.link2}
+              img2={item.image2}
+              img3={item.image3}
+
             />
           );
         })}
