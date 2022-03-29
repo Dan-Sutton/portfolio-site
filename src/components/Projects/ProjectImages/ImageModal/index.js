@@ -13,7 +13,7 @@ const style = {
   width: "90vw",
   height: "70vh",
   bgcolor: "rgba(255, 255, 255, .2)",
-  overflow: "scroll",
+  overflow: "auto",
   backdropFilter: " blur(10px)",
   p: 4,
   borderRadius: "24px",
