@@ -5,13 +5,15 @@ import Modal from "@mui/material/Modal";
 import modal from "./modal.module.css";
 
 const style = {
+  outline: "none",
   position: "absolute",
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: "90vw",
-  height: "90vh",
+  height: "70vh",
   bgcolor: "rgba(255, 255, 255, .2)",
+  overflow: "scroll",
   backdropFilter: " blur(10px)",
   p: 4,
   borderRadius: "24px",
