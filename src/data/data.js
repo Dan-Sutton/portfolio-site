@@ -53,4 +53,22 @@ export const projectsData = [
       link: "https://github.com/SchoolOfCode/pinit-front-end",
     },
   },
+  {
+    title: "Plant Mate",
+    image:
+      "https://res.cloudinary.com/dansutton/image/upload/v1648655041/portfolio%20site/Plant_Mate_logo_j0odw4.png",
+    image2:
+      "https://res.cloudinary.com/dansutton/image/upload/v1648655041/portfolio%20site/Plant_Mate_logo_j0odw4.png",
+    image3:
+      "https://res.cloudinary.com/dansutton/image/upload/v1648655041/portfolio%20site/Plant_Mate_logo_j0odw4.png",
+    info: `COMING SOON`,
+    link1: {
+      title: "Coming Soon",
+      link: "",
+    },
+    link2: {
+      title: "Coming Soon",
+      link: "",
+    },
+  },
 ];
