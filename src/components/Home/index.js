@@ -3,6 +3,8 @@ import Icons from "../Icons";
 import profile from "../../images/profile.png";
 import homestyle from "./home.module.css";
 import { motion } from "framer-motion";
+import ReactPlayer from "react-player";
+import thumbnail from "./biothumb.png";
 
 function Home({ setShowHome, setShowProjects }) {
   return (
@@ -24,6 +26,18 @@ function Home({ setShowHome, setShowProjects }) {
           className={homestyle.profileimage}
           alt={"profile"}
         ></img>
+      </div>
+      <div className={homestyle.video}>
+        <ReactPlayer
+          className={homestyle.reactPlayer}
+          url="https://www.youtube.com/watch?v=7T-uZa1SCm8"
+          controls={false}
+          pip={true}
+          light={thumbnail}
+          wrapper={"div"}
+          width="100%"
+          height="100%"
+        />
       </div>
 
       <section className={homestyle.aboutsection}>
