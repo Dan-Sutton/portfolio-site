@@ -42,11 +42,11 @@ export const projectsData = [
     image2:
       "https://res.cloudinary.com/dansutton/image/upload/v1648558400/portfolio%20site/pinit_mobile_lpw9sn.png",
     image3:
-      "https://res.cloudinary.com/dansutton/image/upload/v1647302095/portfolio%20site/form_wzxdyn.gif",
+      "https://res.cloudinary.com/dansutton/image/upload/v1649258793/portfolio%20site/Screenshot_2022-04-06_at_16.26.00_guuhdb.png",
     info: `During the last 4 weeks of the Bootcamp I worked within a team of six to plan, develop and deploy a full stack app. Using an agile approach and applications such as Miro and Figma to brainstorm and plan ideas, we decided to create a location-based visual scrapbook. This would utilise a React frontend, with a backend using AWS for image storage and a PostgeSQL database for tables. We held daily standups, meetings and retrospectives, utilising Jira to monitor our progress as well as assign new tasks.`,
     link1: {
-      title: "Pinit",
-      link: "https://pinit-pinit.netlify.app/app",
+      title: "Demo Video",
+      link: "https://youtu.be/CMGiV8V-Mws?t=327",
     },
     link2: {
       title: "GitHub",
