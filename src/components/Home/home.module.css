@@ -96,3 +96,16 @@
     font-size: 80%;
   }
 }
+
+.video {
+  margin-top: 3%;
+  margin-bottom: -3%;
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.reactPlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
