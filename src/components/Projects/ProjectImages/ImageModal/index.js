@@ -40,10 +40,28 @@ export default function BasicModal({
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
+          <Typography
+            id="modal-modal-title"
+            variant="h3"
+            component="h2"
+            color={"white"}
+            fontWeight={"bold"}
+          >
             {title}
           </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+          <Typography
+            id="modal-modal-description"
+            sx={{ mt: 2 }}
+            color={"black"}
+            fontSize={"130%"}
+            fontWeight={"bold"}
+            lineHeight={"4vh"}
+            marginBottom={"3vh"}
+            backgroundColor={"rgba(255, 255, 255, .5)"}
+            padding={"2%"}
+            borderRadius={"20px"}
+            backdropFilter={"blur(80px)"}
+          >
             {info}
           </Typography>
           <div>
