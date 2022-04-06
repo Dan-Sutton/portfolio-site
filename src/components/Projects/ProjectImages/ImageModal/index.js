@@ -52,24 +52,33 @@ export default function BasicModal({
           <Typography
             id="modal-modal-description"
             sx={{ mt: 2 }}
-            color={"black"}
+            color={"white"}
             fontSize={"130%"}
             fontWeight={"bold"}
-            lineHeight={"4vh"}
+            lineHeight={"3vh"}
             marginBottom={"3vh"}
-            backgroundColor={"rgba(255, 255, 255, .5)"}
+            backgroundColor={"rgba(36,36,39,.5)"}
             padding={"2%"}
             borderRadius={"20px"}
-            backdropFilter={"blur(80px)"}
           >
             {info}
           </Typography>
-          <div>
-            <a href={link1.link} target="_blank" rel="noreferrer">
+          <div className={modal.links}>
+            <a
+              className={modal.anchor}
+              href={link1.link}
+              target="_blank"
+              rel="noreferrer"
+            >
               {link1.title}
             </a>
             <br />
-            <a href={link2.link} target="_blank" rel="noreferrer">
+            <a
+              className={modal.anchor}
+              href={link2.link}
+              target="_blank"
+              rel="noreferrer"
+            >
               {link2.title}
             </a>
           </div>
