@@ -4,13 +4,27 @@
   width: 47vw;
 }
 
+input,
+textarea {
+  height: 6vh;
+  border-radius: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  height: 25vh;
+}
+
 .form {
-  margin-top: 10vh;
+  margin-top: 6vh;
   display: grid;
   align-items: center;
   width: 90%;
   margin-right: 5%;
   margin-left: 5%;
+  border-style: none;
 }
 
 .submit {
