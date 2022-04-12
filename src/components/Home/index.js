@@ -48,7 +48,7 @@ function Home({ setShowHome, setShowProjects }) {
           Shropshire. I worked previously as a Sound Engineer in the TV
           industry, and have always been fascinated and passionate about tech. I
           took a journey into the tech world after discovering the wonderful
-          world of code. I tought myself the fundamentals of
+          world of code. I taught myself the fundamentals of
           <b className={homestyle.pinkText}> Full Stack Web Development</b>, and
           then decided to apply for the
           <b className={homestyle.blueText}> School of Code Bootcamp</b>. This
