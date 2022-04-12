@@ -63,11 +63,11 @@ export const projectsData = [
       "https://res.cloudinary.com/dansutton/image/upload/v1648655041/portfolio%20site/Plant_Mate_logo_j0odw4.png",
     info: `COMING SOON`,
     link1: {
-      title: "Coming Soon",
-      link: "",
+      title: "Video Demo",
+      link: "https://www.youtube.com/watch?v=WoydIOaFU_k",
     },
     link2: {
-      title: "Coming Soon",
+      title: "Download link coming Soon",
       link: "",
     },
   },
